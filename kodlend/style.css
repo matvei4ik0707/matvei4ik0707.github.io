@@ -1,0 +1,185 @@
+body{
+   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+   font-family: "Bebas Neue", sans-serif;
+margin: 0;
+z-index: 3;
+}
+header{
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+    font-family: "Bebas Neue", sans-serif;
+position: fixed;
+height: 40px;
+z-index: 4;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+animation: anim 3s infinite;
+}
+header a{
+ text-decoration: none;
+ color: rgb(255, 255, 255); 
+ padding: 7px;
+border-radius: 20px;
+margin: 15px;
+
+}
+
+div{
+    color: rgb(255, 255, 255);
+    height: 300px;
+}
+img{
+    width: 300px; 
+}
+#razmer{
+    width: 100%;
+}
+article{
+    display: flex;
+    justify-content: 
+    space-around
+     ;
+    }
+
+.strok{display: inline;}
+h3{
+    color: aliceblue;
+    font-size: 50px;
+} 
+.tekst{
+ 
+    font-size: 25px;
+}
+.perenos{
+    font-size: 45px;
+    color: aliceblue;
+}
+#cvet{
+font-size: 22px;
+flex: 10;
+text-align: center;
+}
+#fon{
+background-size:cover;
+background-image: url(1719436402.jpg) ;
+min-height: 720px;
+width: 100vw;
+height:100vh ;
+}
+.beliy{
+    color: aliceblue;
+}
+.kartinka{
+
+    width: 500px;
+}
+.matsh{
+height: 100px;
+ width: 350px; 
+ background-color: OliveDrab;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ border-radius: 20px; 
+animation: anim 3s infinite;
+}
+@keyframes anim{
+0%{background-color: OliveDrab;}
+50%{background-color: ForestGreen;}
+75%{background-color: Green;}
+100%{background-color: OliveDrab;}
+}
+.mini{
+    height: 80px;
+    width: 100px;
+ }
+
+
+
+footer{
+height: 150px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+animation: anim 3s infinite;
+}
+@keyframes anim{
+    0%{background-color: OliveDrab;}
+    50%{background-color: ForestGreen;}
+    75%{background-color: Green;}
+    100%{background-color: OliveDrab;}
+    }
+.wk{
+    width: 100px;
+    height: 100px; 
+    
+
+}
+.telega{
+    width:  70px;
+    height: 70px; 
+    
+}
+p{
+ color: aliceblue;
+ font-size: 20px;   
+}
+nav{
+    display: flex; 
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 90;
+}
+.werty{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+#zagolovok
+h1{
+ color: black;  
+}
+.baner{
+background-image:url(y.jpg);
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+figcaption:hover{
+
+transform: scale(1.1); 
+background-color: white;  
+}
+.mesh{
+
+ width: 100px;
+ margin: 10px;
+ animation: anim2 2s infinite;
+}
+@keyframes anim2{
+0%{transform: rotate(0deg);}
+30%{transform: rotate(90deg);}
+50%{transform: rotate(180deg);}
+70%{transform: rotate(270deg);}
+100%{transform: rotate(360deg);}
+}
+div{
+    
+    animation: anim 3s infinite;
+}
+.net{
+
+animation: anim3 1s infinite;
+
+}
+@keyframes anim3{
+0%{background-color: white;}
+100%{background-color: white;}
+}
+h1{
+margin: 20px;  
+}
